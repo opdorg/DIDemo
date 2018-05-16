@@ -9,8 +9,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+// by default @SpringBootApplication scans all the packages under its container package
+// if there are classes in packages outside the main package then those need to be added in base packages.
+@ComponentScan(basePackages = {"org.osmand.didemo"})
 public class DiDemoApplication {
 
     private static final Logger logger = LoggerFactory.getLogger(DiDemoApplication.class);

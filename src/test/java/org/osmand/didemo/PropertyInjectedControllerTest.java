@@ -3,7 +3,6 @@ package org.osmand.didemo;
 import org.junit.Before;
 import org.junit.Test;
 import org.osmand.didemo.controllers.PropertyInjectedController;
-import org.osmand.didemo.services.GreetingService;
 import org.osmand.didemo.services.GreetingServiceImpl;
 
 import static junit.framework.TestCase.assertEquals;

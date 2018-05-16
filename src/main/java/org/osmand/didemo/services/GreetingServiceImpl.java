@@ -8,6 +8,6 @@ public class GreetingServiceImpl implements GreetingService {
     public static final String GREETINGS = "Hello, Good evening";
 
     public String sayGreetings(){
-        return "Hello, this is only a Greeting Service!";
+        return "Hello, this is only a Greeting Service";
     }
 }
