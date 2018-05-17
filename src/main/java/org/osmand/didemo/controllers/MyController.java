@@ -14,7 +14,7 @@ public class MyController {
 
     public String hello() {
         //System.out.print("\n\nHello........\n");
-        return greetingService.sayGreetings();
+        return greetingService.sayGreeting();
 
     }
 }

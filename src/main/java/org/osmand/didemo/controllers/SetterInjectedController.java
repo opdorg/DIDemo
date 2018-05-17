@@ -13,7 +13,7 @@ public class SetterInjectedController {
 
     public String sayHello() {
 
-        return greetingService.sayGreetings();
+        return greetingService.sayGreeting();
     }
 
     @Autowired

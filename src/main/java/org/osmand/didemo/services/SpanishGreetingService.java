@@ -9,9 +9,7 @@ import org.springframework.stereotype.Service;
 @Primary
 public class SpanishGreetingService implements GreetingService {
 
-    public static final String GREETINGS = "Hello, Good evening";
-
-    public String sayGreetings(){
+    public String sayGreeting(){
         return "Hola, este es el Servicio de saludo primario.";
     }
 }
